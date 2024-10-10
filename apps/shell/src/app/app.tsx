@@ -25,7 +25,7 @@ export function App() {
         </li>
       </ul>
       <Routes>
-        <Route path="/" element={<NxWelcome title="shell" />} />
+        <Route path="/" element={<div>Welcome to home route</div>} />
 
         <Route path="/shop" element={<Shop />} />
 
